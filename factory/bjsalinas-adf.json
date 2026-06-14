@@ -1,0 +1,21 @@
+{
+	"name": "bjsalinas-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "73a26255-9a5a-4b09-8bb7-e2e8a65c38e5",
+		"tenantId": "c1391489-d470-45cd-a749-d6b517f47a25",
+		"userAssignedIdentities": {
+			"/subscriptions/ed6451c4-92d4-4b19-9d6e-5c1c611ba19d/resourcegroups/bjsalinas-rg-azure/providers/Microsoft.ManagedIdentity/userAssignedIdentities/bjsalinas-uami": {
+				"clientId": "38ebf010-fc91-4cee-a124-0cbfe5a68f14",
+				"principalId": "cbb10082-0e01-4507-8848-a02c71626985"
+			}
+		}
+	}
+}
